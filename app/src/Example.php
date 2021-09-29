@@ -2,7 +2,7 @@
 
 namespace Area51projects\Psql2mysql;
 
-class Importer {
+class Example {
   public static function sayHelloWorld() {
     return 'Hello World';
   }

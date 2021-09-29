@@ -6,6 +6,8 @@ WORKDIR /var/www/html
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
+RUN docker-php-ext-install pdo_mysql
+
 # Install PHP extensions end
 
 RUN addgroup -g ${UID} developer && adduser -G developer -g developer -s /bin/sh -D developer

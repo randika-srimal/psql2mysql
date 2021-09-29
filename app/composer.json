@@ -12,5 +12,7 @@
             "email": "email2randika@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "catfan/medoo": "^2.1"
+    }
 }
