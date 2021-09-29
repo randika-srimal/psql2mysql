@@ -1,0 +1,16 @@
+{
+    "name": "area51projects/psql2sql",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Area51projects\\Psql2mysql\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Randika Srimal",
+            "email": "email2randika@gmail.com"
+        }
+    ],
+    "require": {}
+}
