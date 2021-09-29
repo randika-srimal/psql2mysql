@@ -13,6 +13,7 @@
         }
     ],
     "require": {
-        "catfan/medoo": "^2.1"
+        "catfan/medoo": "^2.1",
+        "vlucas/phpdotenv": "^5.3"
     }
 }
